@@ -32,12 +32,6 @@ class Concatenation< T > implements Convolution< T >
 	}
 
 	@Override
-	public void setExecutor( final ExecutorService executor )
-	{
-		steps.forEach( step -> step.setExecutor( executor ) );
-	}
-
-	@Override
 	public Interval requiredSourceInterval( final Interval targetInterval )
 	{
 		Interval result = targetInterval;

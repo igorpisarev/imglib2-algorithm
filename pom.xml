@@ -199,7 +199,7 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
-
+		<imglib2.version>5.8.1-SNAPSHOT</imglib2.version>
 	</properties>
 
 	<repositories>
